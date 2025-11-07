@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Left: Logo & Description */}
         <div className="md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left">
           <Image
-            src="/Logo.jpg"
+            src="/Logo.png"
             alt="Amazing Green Logo"
             width={365}
             height={110}

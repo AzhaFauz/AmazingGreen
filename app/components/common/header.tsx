@@ -18,7 +18,7 @@ export default function Header() {
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <Image
-            src="/Logo.jpg"
+            src="/Logo.png"
             alt="Company Logo"
             width={180} // smaller for mobile
             height={60}
