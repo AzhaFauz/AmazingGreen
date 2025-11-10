@@ -1,6 +1,6 @@
 "use client";
 
-import { Leaf, ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
+import { Leaf, ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -55,13 +55,13 @@ export default function OurAwardsSection() {
               onClick={prevSlide}
               className="border border-white rounded-md p-2 text-white hover:bg-white hover:text-[#5B8C51] transition"
             >
-              <ArrowLeft className="w-5 h-5" />
+              <ChevronLeft className="w-5 h-5" />
             </button>
             <button
               onClick={nextSlide}
               className="border border-white rounded-md p-2 text-white hover:bg-white hover:text-[#5B8C51] transition"
             >
-              <ArrowRight className="w-5 h-5" />
+              <ChevronRight className="w-5 h-5" />
             </button>
           </div>
         </div>

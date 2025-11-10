@@ -6,6 +6,7 @@ import HeroSection from "./components/home/hero-section";
 import InputOutputSection from "./components/home/input-output-section";
 import OurFarmersSection from "./components/home/our-farmers-section";
 import OurAwardsSection from "./components/home/our-awards-section";
+import TestimonialSection from "./components/home/testimonial-section";
 import LatestBlogSection from "./components/home/latest-blog-section";
 
 export default function HomePage() {
@@ -17,6 +18,7 @@ export default function HomePage() {
         <InputOutputSection />
         <OurFarmersSection />
         <OurAwardsSection />
+        <TestimonialSection />
         <LatestBlogSection />
       </main>
       <Footer />
