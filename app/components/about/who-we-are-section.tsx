@@ -8,7 +8,7 @@ export default function WhoWeAreSection() {
   return (
     <section className="w-full py-20 px-4 sm:px-8 lg:px-16">
       {/* Centered container */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
         {/* Left Image Section */}
         <div className="relative flex justify-center md:justify-start">
           <div className="relative w-full max-w-lg">
