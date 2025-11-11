@@ -16,7 +16,7 @@ export default function HeroSection() {
       />
 
       {/* 🔹 Overlay */}
-      <div className="absolute inset-0 bg-black/40 rounded-3xl"></div>
+      <div className="absolute inset-0 bg-black/10 rounded-3xl"></div>
 
       {/* 🔹 Content */}
       <div className="relative z-10 text-white text-center md:text-left px-6 sm:px-10 md:px-40 max-w-5xl">

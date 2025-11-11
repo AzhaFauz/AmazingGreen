@@ -33,12 +33,12 @@ export default function OurFarmersSection() {
         {/* Label */}
         <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-4 w-fit">
           <Leaf className="w-5 h-5 text-[#0C6807]" />
-          <span className="text-black font-medium">Our Farmers</span>
+          <span className="text-black font-medium">Our Team</span>
         </div>
 
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-semibold text-black mb-10 text-left">
-          Meet Our Farmers
+          Meet Our Team
         </h2>
 
         {/* Farmers Row */}

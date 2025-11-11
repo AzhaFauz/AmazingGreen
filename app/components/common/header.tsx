@@ -10,7 +10,14 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const navItems = ["About", "Vision", "Services", "Gallery", "Awards", "Team"];
+  const navItems = [
+    "About",
+    "Vision",
+    "Services",
+    "Gallery",
+    "Our Team",
+    "Awards",
+  ];
 
   return (
     <header className="w-full fixed top-0 left-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
