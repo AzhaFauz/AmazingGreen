@@ -7,7 +7,7 @@ export default function WhoWeAreSection() {
   return (
     <section className="w-full py-20 px-4 sm:px-8 lg:px-16">
       {/* Centered container */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-start md:ml-20">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-start md:ml-16">
         {/* Left Image Section */}
         <div className="relative flex justify-center md:justify-start">
           <div className="relative w-full max-w-lg">
@@ -22,7 +22,7 @@ export default function WhoWeAreSection() {
 
             {/* Yellow Stat Card with smooth scale effect */}
             <div
-              className="absolute sm:-bottom-8 sm:-right-8 bottom-4 right-4 bg-[#EDDD5E] text-[#171717] rounded-2xl shadow-md px-8 py-6 w-fit 
+              className="absolute sm:-bottom-8 sm:-right-10 bottom-4 right-4 bg-[#EDDD5E] text-[#171717] rounded-2xl shadow-md px-8 py-6 w-fit 
                             transform transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <h2 className="text-4xl font-bold">*435+</h2>
