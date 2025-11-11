@@ -2,12 +2,13 @@
 
 import { Leaf } from "lucide-react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function WhoWeAreSection() {
   return (
     <section className="w-full py-20 px-4 sm:px-8 lg:px-16">
       {/* Centered container */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-start md:ml-14">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         {/* Left Image Section */}
         <div className="relative flex justify-center md:justify-start">
           <div className="relative w-full max-w-lg">
@@ -20,10 +21,14 @@ export default function WhoWeAreSection() {
               priority
             />
 
-            {/* Yellow Stat Card with smooth scale effect */}
-            <div
-              className="absolute sm:-bottom-8 sm:-right-14 bottom-4 right-4 bg-[#EDDD5E] text-[#171717] rounded-2xl shadow-md px-8 py-6 w-fit 
-                            transform transition-transform duration-300 ease-in-out hover:scale-105"
+            {/* Yellow Stat Card with scroll + hover animation */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="absolute bottom-4 right-4 sm:-bottom-8 sm:-right-8 lg:-right-14 bg-[#EDDD5E] text-[#171717] rounded-2xl shadow-md px-8 py-6 w-fit
+                         transform transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <h2 className="text-4xl font-bold">*435+</h2>
 
@@ -33,7 +38,7 @@ export default function WhoWeAreSection() {
               <p className="text-sm font-medium mt-1 text-gray-700">
                 Growth Tons’ of Harvest
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
 
@@ -46,13 +51,13 @@ export default function WhoWeAreSection() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1B2E1A] leading-snug text-left">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1B2E1A] leading-snug text-left">
             Currently we are growing
             <br /> and selling organic food
           </h2>
 
           {/* Paragraph */}
-          <p className="text-gray-600 leading-relaxed text-left">
+          <p className="text-gray-600 leading-relaxed text-left sm:leading-relaxed">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don’t look even. There are many
