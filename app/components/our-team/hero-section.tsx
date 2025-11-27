@@ -3,12 +3,12 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function AboutHeroSection() {
+export default function OurTeamHeroSection() {
   return (
     <section className="relative w-full h-[60vh] md:h-[60vh] flex items-center justify-center md:justify-start overflow-hidden rounded-3xl mx-2 sm:mx-4">
       {/* Background Image */}
       <Image
-        src="/about-hero.png"
+        src="/team-hero.jpg"
         alt="About Us Background"
         fill
         priority
@@ -31,7 +31,7 @@ export default function AboutHeroSection() {
             HOME
           </Link>
           <span className="text-gray-300">{" > "}</span>
-          <span className="text-gray-200 font-semibold">ABOUT US</span>
+          <span className="text-gray-200 font-semibold">ABOUT</span>
         </div>
       </div>
     </section>

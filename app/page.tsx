@@ -7,7 +7,6 @@ import OurFarmersSection from "./components/home/our-farmers-section";
 import OurAwardsSection from "./components/home/our-awards-section";
 import GrowNaturallySection from "./components/home/grow-naturally-section";
 import GrowGallerySection from "./components/home/grow-gallery-section";
-import TestimonialSection from "./components/home/testimonial-section";
 import LatestBlogSection from "./components/home/latest-blog-section";
 import Footer from "./components/common/footer";
 
@@ -22,7 +21,6 @@ export default function HomePage() {
         <OurAwardsSection />
         <GrowNaturallySection />
         <GrowGallerySection />
-        <TestimonialSection />
         <LatestBlogSection />
       </main>
       <Footer />

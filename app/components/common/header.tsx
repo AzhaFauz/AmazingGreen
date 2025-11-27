@@ -58,7 +58,7 @@ export default function Header() {
 
         {/* Right Section */}
         <div className="flex items-center space-x-4 md:space-x-6">
-          {/* Call Us Section */}
+          {/* Call Us Section 
           <div className="hidden lg:flex items-center space-x-3 text-gray-700">
             <div className="p-2 rounded-full">
               <Phone size={24} className="text-[#0C6807]" />
@@ -69,7 +69,7 @@ export default function Header() {
                 +1 (212) 255-511
               </p>
             </div>
-          </div>
+          </div>*/}
 
           {/* Button Section */}
           <Link

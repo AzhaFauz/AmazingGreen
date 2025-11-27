@@ -78,19 +78,19 @@ export default function OurAwardsSection() {
                 <Image
                   src={award.image}
                   alt={award.title}
-                  width={300}
-                  height={180}
+                  width={380}
+                  height={200}
                   className="rounded-lg object-contain"
                 />
               </div>
 
               {/* Title */}
-              <h3 className="text-[#5B8C51] font-semibold text-base sm:text-lg mb-2">
+              <h3 className="text-[#5B8C51] font-semibold text-base sm:text-lg mb-2 text-left">
                 • {award.title}
               </h3>
 
               {/* Description */}
-              <p className="text-gray-600 text-sm border-t pt-3 leading-relaxed">
+              <p className="text-gray-600 text-sm border-t pt-3 leading-relaxed text-left">
                 {award.description}
               </p>
 
