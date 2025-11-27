@@ -34,30 +34,29 @@ export default function Header() {
           />
         </div>
 
-        {/* Desktop Navbar */}
-        <nav className="hidden md:flex items-center space-x-8">
-          {navItems.map((item) => {
-            const href = `/${item.toLowerCase()}`;
-            const isActive = pathname === href;
-
-            return (
-              <Link
-                key={item}
-                href={href}
-                className={`font-medium transition-colors ${
-                  isActive
-                    ? "text-[#0C6807] underline underline-offset-4 decoration-2"
-                    : "text-gray-700 hover:text-gray-900"
-                }`}
-              >
-                {item}
-              </Link>
-            );
-          })}
-        </nav>
-
         {/* Right Section */}
         <div className="flex items-center space-x-4 md:space-x-6">
+          {/* Desktop Navbar */}
+          <nav className="hidden md:flex items-center space-x-8">
+            {navItems.map((item) => {
+              const href = `/${item.toLowerCase()}`;
+              const isActive = pathname === href;
+
+              return (
+                <Link
+                  key={item}
+                  href={href}
+                  className={`font-medium transition-colors ${
+                    isActive
+                      ? "text-[#0C6807] underline underline-offset-4 decoration-2"
+                      : "text-gray-700 hover:text-gray-900"
+                  }`}
+                >
+                  {item}
+                </Link>
+              );
+            })}
+          </nav>
           {/* Call Us Section 
           <div className="hidden lg:flex items-center space-x-3 text-gray-700">
             <div className="p-2 rounded-full">
